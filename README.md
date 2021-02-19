@@ -1,5 +1,7 @@
 # Python_self_assesment
-This self-assesment should be passed prior to starting MSDS600 in the Regis MSDS program. You should first make sure you have Python installed ([instructions here](https://github.com/nateGeorge/Python_getting_started)). Then open the `Self_assesment.ipynb` file with Jupyter Notebook, complete the coding tasks, and run the last cell to show your score. You may use any resources you want during the assessment (e.g. books, the web). If you score 70% or above, you are ready for MSDS600. If you do not score 70% or above, you should do one of the following:
+This self-assesment should be passed prior to starting MSDS600 in the Regis MSDS program. You should first make sure you can run Jupyter Notebooks. One easy way to do this is by [installing Anaconda](https://www.anaconda.com/products/individual), then running Anaconda Navigator once it is installed. From there you can launch Jupyter Notebook or Jupyter Lab.
+
+Download this repository (e.g. clicking the green "code" button then "Download ZIP"). Open the `Self_assesment.ipynb` Jupyter Notebook from the download, complete the coding tasks, and run the last cell to show your score. You may use any resources you want during the assessment (e.g. books, the web). If you score 70% or above, you are ready for MSDS600. If you do not score 70% or above, you should do one of the following:
 
 - take MSC575 Statistical Computing from Regis
 - use online resources to learn some Python basics
