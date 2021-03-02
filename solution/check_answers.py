@@ -114,7 +114,7 @@ def calculate_score(variables):
     else:
         pct_correct = int(correct/15 * 100)
         print(f'You got {correct} out of 15 questions right for {pct_correct}% correct.')
-        if pct_correct >= 70:
+        if pct_correct >= 50:
             print('You should be good to go for MSDS600, but be sure to compare your answers with the solutions.')
 
         print('\nQuestions you got correct:')
