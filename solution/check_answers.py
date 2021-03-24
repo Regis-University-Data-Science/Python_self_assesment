@@ -47,7 +47,7 @@ def calculate_score(variables):
         [10000, 9616.276584519474],
         os.getcwd()
         ]
-    
+
     # correct answers for list and dict for running functions
     snowfall_list = [2.1, 3.2, 7.7, 0]
     snowfall_dict = {'Denver': 2.1, 'Boulder': 3.2, 'Nederland': 7.7, 'Phoenix': 0}
@@ -75,7 +75,7 @@ def calculate_score(variables):
                 if var_str == 'get_biggest_snowfall':
                     student_answers.append(current_var(snowfall_list))
                     continue
-                
+
                 stream = StringIO()
                 write_to_stream = contextlib.redirect_stdout(stream)
                 if var_str == 'print_snowfall':
@@ -84,7 +84,7 @@ def calculate_score(variables):
                 else:
                     with write_to_stream:
                         current_var(snowfall_list)
-                
+
                 student_answers.append(stream.getvalue())
             elif var_str == 'new_mortgage':
                 student_answers.append(current_var.outstanding)
@@ -114,13 +114,15 @@ def calculate_score(variables):
     else:
         pct_correct = int(correct/15 * 100)
         print(f'You got {correct} out of 15 questions right for {pct_correct}% correct.')
-        if pct_correct >= 50:
+        if correct >= 5:
             print('You should be good to go for MSDS600, but be sure to compare your answers with the solutions.')
 
-        print('\nQuestions you got correct:')
+        print('\nQuestions you got correct:\n')
         for q in correct_qs:
             print(q)
-        print('\nQuestions you missed:')
+            print()
+        print('\nQuestions you missed:\n')
         for q, exp in zip(incorrect_qs, incorrect_explanations):
             print(q)
             print(exp)
+            print()
