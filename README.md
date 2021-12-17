@@ -15,4 +15,4 @@ Some good online resources for learning Python are:
 - [DataCamp's Python track](https://www.datacamp.com/tracks/python-fundamentals) (the intro/intermediate Python courses, good for beginners)
 - [Coursera](https://www.coursera.org/learn/python) (good for beginners)
 
-Email Kellen Sorauf at [ksorauf@regis.edu](ksorauf@regis.edu) if you have any quetions regarding the self-assessment test. 
+Email Kellen Sorauf at [ksorauf@regis.edu](mailto:ksorauf@regis.edu) if you have any quetions regarding the self-assessment test. 
