@@ -1,4 +1,4 @@
-# Regis MSDS Python self-assessment
+# Regis MSDS Python Self-Assessment
 This self-assessment should be passed by answering **five** or more questions correctly before starting MSDS600 in the Regis MSDS program. There is no limit on the number of times you can take the assessment. If you have any questions or need further assistance, feel free to reach out to the Regis MSDS faculty, who can be found in the "Marketing and Data Sciences" department [here](https://www.regis.edu/academics/faculty-finder/index).
 
 To complete the assessment, make sure you can run Jupyter Notebooks. The easiest way to do this is by installing [Anaconda](https://www.anaconda.com/download/success). After installation, open the Anaconda Navigator application. From there, you can launch Jupyter Notebook or Jupyter Lab. Alternatively, you can fork the Kaggle kernel for the assessment [here](https://www.kaggle.com/wordsforthewise/regis-python-self-assessment) and run it on Kaggle. Additionally, there is a short introductory video on how to get started with the assessment, which you can find [here](https://youtu.be/wwTyWwMyPJw).
